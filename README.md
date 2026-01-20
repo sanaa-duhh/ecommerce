@@ -21,7 +21,7 @@ A robust RESTful backend system built with Spring Boot and MongoDB. This project
     Open `src/main/resources/application.properties` and add your MongoDB Atlas connection string:
     ```properties
     spring.data.mongodb.uri=mongodb+srv://<username>:<password>@cluster0.xyz.mongodb.net/?retryWrites=true&w=majority
-    spring.data.mongodb.database=ecommerce_db
+    spring.data.mongodb.database=ecommerce
     ```
 3.  **Run the Application:**
     Run `EcommerceApplication.java` from your IDE. The server will start on port `8080`.
